@@ -103,7 +103,7 @@ background-color:rgb(169, 199, 35);
     margin:20px 0;
     width: 70%;
 }
-@media (max-width:375px){
+@media (max-width:420px){
 
 .container{
     flex-wrap: wrap;
