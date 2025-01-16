@@ -56,7 +56,6 @@ body{
     width: 100%;
     font-size: 25px;
     font-weight:700 ;
-   
 }
 .title-sec{
     font-size: 16px;
@@ -95,7 +94,6 @@ background-color:rgb(169, 199, 35);
     padding:30px;
     font-size: 13px;;
     align-items: center;
-    max-width: 800px;
     width: 50%;
     color:rgb(229, 239, 245);
     line-height: 1.5;
@@ -104,4 +102,25 @@ background-color:rgb(169, 199, 35);
 .sub-text{
     margin:20px 0;
     width: 70%;
+}
+@media (max-width:375px){
+
+.container{
+    flex-wrap: wrap;
+    width:90%;
+    margin: 0 auto;
+    height: fit-content;
+}
+.content{
+    border-radius:5px;
+    margin: 40px;
+   
+}
+.subscribe{
+    width: 100%;
+}
+.reason{
+    width: 100%;
+    border-radius:5px;
+}
 }
